@@ -35,29 +35,29 @@ This must be copied inside the git container:
 
 1. Once the container is running get inside the git container:
 
-´´´bash
+```bash
 docker exec -ti git-server bash
-´´´
+```
 
 2. Move to the repository created
 
-´´´bash
+```bash
 cd /var/opt/gitlab/git-data/repository/jenkins/pipeline-maven.git
-´´´
+```
 
 3. Create a hook directory and move to it
 
-´´´bash
+```bash
 mkdir custom_hook
 
 cd custom_hook
-´´´
+```
 
 4. Create a file named post-receive file and copy the content in it
 
-´´´
+```bash
 vi post-receive
-´´´
+```
 
 ## Usage
 

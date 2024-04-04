@@ -1,0 +1,5 @@
+version: '3'
+services:
+  maven:
+    image: "<your-dockerhub-user>/$IMAGE:$TAG"
+    container_name: maven-app
